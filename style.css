@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background-image: url("bkg3.jpg");
+    background-size: cover;
+    text-align: left;
+    font-size: Arial;
+    padding: 0%;
+    margin: 0%;
+}
+
+.homepage {
+    overflow: hidden;
+    background-color:black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+
+a {
+    float: left;
+    display: block;
+    color:rgb(154, 208, 194);
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.homepage:hover a {
+    
+    color:#2EC866;
+}
+
+.head h1{
+    margin-top: 300px;
+    text-align: center;   
+    background-color:transparent;
+    border: none;
+}
+.head strong {
+    color:yellow;
+    font-size:50px;
+}
+
+.head h2{
+    margin-top: 20px;
+    text-align: center;
+    color:#A7E6FF;
+    font-size: 28px;
+    background-color:transparent;
+    border: none;
+}
+.social-icons{
+   padding-top: 100px;
+   align-items: center;
+   margin-left: 600px;
+}
+.social-icons a{
+    color:whitesmoke;
+    font-size: 40px;
+    margin: 10px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #0077b5; /* LinkedIn color */
+}
+
+.social-icons a.fab.fa-github:hover {
+    color: #333; /* GitHub color */
+}
+
+.social-icons a.fab.fa-hackerrank:hover {
+    color: #2EC866; /* HackerRank color */
+}
+.About_me  {
+    margin-top:50vh;
+    color:white;
+}
+.About_me h1 {
+    text-align: center;
+}
+
+.content_wrapper p {
+    padding: 50px;
+    text-align: left;
+    font-size: 18px;
+
+}
+.content_wrapper h1 {
+    padding-left:30px ;
+    font-size: 20px;
+    text-align: left;
+}
+.skills{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.skill{
+    margin: 10px;
+}
+.skill-name{
+    font-weight: bold;
+}
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 5px;
+}
+.progress.python { width: 90%; background-color:rgb(45, 149, 150); }
+.progress.sql { width: 85%; background-color:rgb(45, 149, 150); }
+.progress.powerbi { width: 80%; background-color:rgb(45, 149, 150); }
+.progress.ml { width: 75%; background-color:rgb(45, 149, 150); }
+.progress.nlp { width: 70%; background-color:rgb(45, 149, 150); }
+.progress.excel { width: 95%; background-color:rgb(45, 149, 150); }
+
+button{
+    margin-top: 30px;
+    background-color:blue;
+}
+.head{
+    padding-top: 1px;
+}
+.head h1 {
+    color: #f2f2f2;
+    font-size: 30px;
+
+}
+.Projects {
+    display: flex;
+    flex-wrap: wrap; /* Aligns children in a row */
+    justify-content: space-evenly; /* Centers the children horizontally */
+    align-items: left; /* Centers the children vertically */
+}
+.Projects > div {
+    margin: 20px; /* Adds some space between the divs */
+    padding-left: 20px;
+}
+.Projects img {
+    width: 400px; /* Adjust the size of the images as needed */
+}
+
+.contact-info h1 {
+    padding-top: 100px;
+    margin-left: 600px;
+    color:white;
+}
+strong{
+    color:#A7E6FF;
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    margin-top: 15px;
+    text-align: center;
+    color:#FFEAE3;
+    font-weight: bold;
+
+}
+
+footer p {
+    text-align: left;
+    margin-top: 30px;
+    color: red;
+    font-size: 16px;
+}
+
