@@ -9,7 +9,7 @@ body{
     font-size: Arial;
     padding: 0%;
     margin: 0%;
-}
+} 
 
 .homepage {
     overflow: hidden;
@@ -19,7 +19,7 @@ body{
     width: 100%; /* Full width */
 }
 .homepage img {
-    margin-left:700px;
+    margin-left:500px;
     width: 80px;
     height: 80px;
     
@@ -29,12 +29,12 @@ body{
 a {
     float: left;
     display: block;
-    color:black;
+    color:white;
     text-align: center;
     padding: 30px 26px;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold
 }
 
@@ -49,6 +49,9 @@ a {
     color:red;
 }
 .co:hover{
+    color:red;
+}
+.cor:hover{
     color:red;
 }
 
@@ -177,28 +180,154 @@ button{
     color:white ;
 }
 
-.contact-info h1 {
-    padding-top: 100px;
-    margin-left: 600px;
-    color:white;
-}
-strong{
-    color:#A7E6FF;
-    font-weight: bold;
-    font-size: 20px;
-}
-p{
-    margin-top: 15px;
+.Courses h1{
+    color: white;
     text-align: center;
-    color:#FFEAE3;
-    font-weight: bold;
+    font-size: 28px;
 
 }
+.cert img{
+    width: 700px;
+    height: 500px;
+}
+
+.contact-info{
+    text-align: center;
+    color: white;
+}
+
 
 footer p {
     text-align: left;
     margin-top: 30px;
     color: red;
     font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+    .homepage img {
+        margin-left: 300px;
+    }
+    .social-icons {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .homepage img {
+        margin-left: 200px;
+    }
+    .social-icons {
+        margin-left: 300px;
+        padding-top: 50px;
+    }
+    .resume img {
+        width: 80%;
+    }
+    .cert img {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage img {
+        margin-left: 100px;
+    }
+    a {
+        padding: 20px 16px;
+        font-size: 14px;
+    }
+    .social-icons {
+        margin-left: 200px;
+        padding-top: 30px;
+    }
+    .resume img {
+        width: 70%;
+    }
+    .cert img {
+        width: 500px;
+        height: 350px;
+    }
+    .content_wrapper p {
+        padding: 30px;
+        font-size: 16px;
+    }
+    .content_wrapper h1 {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .homepage img {
+        margin-left: 50px;
+    }
+    a {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+    .social-icons {
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+    .resume img {
+        width: 60%;
+    }
+    .cert img {
+        width: 400px;
+        height: 300px;
+    }
+    .head h1 {
+        font-size: 24px;
+    }
+    .head h2 {
+        font-size: 20px;
+    }
+    .content_wrapper p {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .content_wrapper h1 {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .homepage img {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    a {
+        padding: 5px 4px;
+        font-size: 10px;
+    }
+    .social-icons {
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+    .resume img {
+        width: 50%;
+    }
+    .cert img {
+        width: 300px;
+        height: 250px;
+    }
+    .head h1 {
+        font-size: 20px;
+    }
+    .head h2 {
+        font-size: 16px;
+    }
+    .content_wrapper p {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .content_wrapper h1 {
+        padding-left: 5px;
+        font-size: 14px;
+    }
 }
 
